@@ -592,6 +592,18 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-svg-mobile-image{
+  background-image: url(iamges/bg-hero-mobile.svg);
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -638,11 +650,6 @@ video {
 .text-primary-300{
   --tw-text-opacity: 1;
   color: hsl(192 100% 9% / var(--tw-text-opacity));
-}
-
-.text-primary-100{
-  --tw-text-opacity: 1;
-  color: hsl(322 100% 66% / var(--tw-text-opacity));
 }
 
 .text-white{

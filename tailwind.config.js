@@ -15,7 +15,10 @@ module.exports = {
         heading: ["Poppins"],
         body: ["Open Sans"],
       },
-      backgroundImage: URL(),
+      backgroundImage: {
+        "svg-desktop-image": "url(iamges/bg-hero-desktop.svg)",
+        "svg-mobile-image": "url(iamges/bg-hero-mobile.svg)",
+      },
     },
   },
   plugins: [],
