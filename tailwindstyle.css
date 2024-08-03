@@ -558,8 +558,47 @@ video {
   --tw-contain-style:  ;
 }
 
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-6{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
+.mb-40{
+  margin-bottom: 10rem;
+}
+
 .mb-6{
   margin-bottom: 1.5rem;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
+}
+
+.inline-block{
+  display: inline-block;
 }
 
 .flex{
@@ -572,6 +611,14 @@ video {
 
 .w-\[50\%\]{
   width: 50%;
+}
+
+.w-\[80\%\]{
+  width: 80%;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .items-center{
@@ -587,13 +634,18 @@ video {
   background-color: hsl(322 100% 66% / var(--tw-bg-opacity));
 }
 
+.bg-primary-200{
+  --tw-bg-opacity: 1;
+  background-color: hsl(193 100% 96% / var(--tw-bg-opacity));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-svg-mobile-image{
-  background-image: url(iamges/bg-hero-mobile.svg);
+  background-image: url(images/bg-hero-mobile.svg);
 }
 
 .bg-cover{
@@ -614,8 +666,8 @@ video {
   padding-right: 2rem;
 }
 
-.pb-16{
-  padding-bottom: 4rem;
+.pb-20{
+  padding-bottom: 5rem;
 }
 
 .pt-7{
@@ -639,6 +691,11 @@ video {
   line-height: 2rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -650,6 +707,11 @@ video {
 .text-primary-300{
   --tw-text-opacity: 1;
   color: hsl(192 100% 9% / var(--tw-text-opacity));
+}
+
+.text-primary-400{
+  --tw-text-opacity: 1;
+  color: hsl(208 11% 55% / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -673,5 +735,17 @@ video {
 .btn:hover{
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.card{
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }

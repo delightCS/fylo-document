@@ -16,8 +16,8 @@ module.exports = {
         body: ["Open Sans"],
       },
       backgroundImage: {
-        "svg-desktop-image": "url(iamges/bg-hero-desktop.svg)",
-        "svg-mobile-image": "url(iamges/bg-hero-mobile.svg)",
+        "svg-desktop-image": "url(images/bg-hero-desktop.svg)",
+        "svg-mobile-image": "url(images/bg-hero-mobile.svg)",
       },
     },
   },
