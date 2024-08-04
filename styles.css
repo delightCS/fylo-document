@@ -10,5 +10,13 @@
 }
 
 .card {
-  @apply shadow-full px-6 py-8 rounded-lg mb-12 xs:px-12;
+  @apply shadow-full px-6 py-8 rounded-lg mb-12 xs:px-12 flex flex-col lg:flex-row items-center justify-between gap-16;
+}
+
+.btn-white {
+  @apply shadow-md py-1 px-6 rounded-full font-bold cursor-pointer hover:shadow-sm text-primary-300 bg-white hover:bg-primary-200 xs:py-2 lg:px-12;
+}
+
+.call-to-action {
+  @apply mx-4 text-center bg-white shadow-full px-4 py-8 rounded-xl absolute bottom-[50%] translate-y-[50%] left-0 right-0 sm:mx-16 lg:mx-60 lg:py-12;
 }

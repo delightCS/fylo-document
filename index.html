@@ -20,22 +20,22 @@
   </head>
   <body class="font-body">
     <div>
-      <header class="bg-svg-mobile-image bg-cover bg-center bg-primary-200">
+      <header
+        class="bg-svg-mobile-image bg-cover bg-center bg-primary-200 block"
+      >
         <div class="flex justify-between items-center pt-7 pb-20 px-4 xs:px-8">
-          <div class="w-[50%] h-auto xs:w-[50%]">
+          <div class="w-[30%] h-auto xs:w-[30%] md:w-[30%]">
             <a href="/"
               ><img src="images/logo.svg" alt="svg" class="inline-block"
             /></a>
           </div>
-          <button
-            class="shadow-md py-1 px-6 rounded-full font-bold cursor-pointer hover:shadow-sm text-primary-300 bg-white hover:bg-primary-200 xs:py-2"
-          >
-            Try It Free
-          </button>
+          <button class="btn-white">Try It Free</button>
         </div>
 
-        <div class="text-center px-8 xs:px-12">
-          <div>
+        <div
+          class="text-center px-8 xs:px-12 lg:grid grid-cols-2 items-center justify-between gap-8"
+        >
+          <div class="text-left">
             <h1 class="font-heading font-bold text-3xl mb-6">
               Build The Community Your Fans Will Love
             </h1>
@@ -44,7 +44,7 @@
               but so does your audience. Create connections with your users as
               you engage in genuine discussion.
             </p>
-            <div class="btn mb-16">
+            <div class="btn mb-16 lg:inline-block">
               <a href="#">Get Started For Free</a>
             </div>
           </div>
@@ -60,23 +60,26 @@
 
       <article>
         <div class="mt-14 mx-4 mb-48 text-center xs:mx-7">
-          <div class="card">
-            <div class="w-[80%] h-auto inline-block mb-8">
-              <img src="images/illustration-grow-together.svg" alt="svg" />
-            </div>
-            <div>
-              <h2
-                class="text-xl font-heading font-bold mb-4 text-primary-300 xs:text-2xl"
-              >
-                Grow Together
-              </h2>
-              <p class="font-medium text-primary-400">
-                Generate meaningful discussions with your audience and build a
-                strong, loyal community. Think of the insightful conversations
-                you miss out on with a feedback form.
-              </p>
+          <div class="flex justify-center">
+            <div class="card">
+              <div class="w-[80%] h-auto inline-block mb-8 lg:order-last">
+                <img src="images/illustration-grow-together.svg" alt="svg" />
+              </div>
+              <div class="lg:text-start lg:w-[95%]">
+                <h2
+                  class="text-xl font-heading font-bold mb-4 text-primary-300 xs:text-2xl"
+                >
+                  Grow Together
+                </h2>
+                <p class="font-medium text-primary-400">
+                  Generate meaningful discussions with your audience and build a
+                  strong, loyal community. Think of the insightful conversations
+                  you miss out on with a feedback form.
+                </p>
+              </div>
             </div>
           </div>
+
           <div class="card">
             <div class="w-[80%] h-auto inline-block mb-8">
               <img
@@ -84,7 +87,7 @@
                 alt="svg"
               />
             </div>
-            <div>
+            <div class="lg:text-start lg:w-[95%]">
               <h2
                 class="text-xl font-heading font-bold mb-4 text-primary-300 xs:text-2xl"
               >
@@ -98,10 +101,10 @@
             </div>
           </div>
           <div class="card">
-            <div class="w-[80%] h-auto inline-block mb-8">
+            <div class="w-[80%] h-auto inline-block mb-8 lg:order-last">
               <img src="images/illustration-your-users.svg" alt="svg" />
             </div>
-            <div>
+            <div class="lg:text-start lg:w-[95%]">
               <h2
                 class="text-xl font-heading font-bold mb-4 text-primary-300 xs:text-2xl"
               >
@@ -118,9 +121,7 @@
       </article>
 
       <aside class="relative">
-        <div
-          class="mx-4 text-center bg-white shadow-full px-4 py-8 rounded-xl absolute bottom-[50%] translate-y-[50%] left-0 right-0 sm:mx-16"
-        >
+        <div class="call-to-action">
           <h2 class="text-lg text-primary-300 font-heading font-semibold mb-6">
             Ready To Build Your Community?
           </h2>
@@ -135,15 +136,15 @@
               ><img src="images/logo-white.svg" alt="svg" class="inline-block"
             /></a>
           </div>
-          <div class="grid">
-            <div class="grid gap-y-4 mb-8">
+          <div class="grid lg:grid-cols-5 justify-start items-start gap-x-8">
+            <div class="grid gap-y-4 mb-8 lg:col-span-2">
               <div class="flex items-start gap-4">
                 <div
                   class="inline-block w-16 h-16 mt-2 xs:w-10 xs:h-10 sm:w-5 sm:h-5"
                 >
                   <img src="images/icon-location.svg" alt="svg" class="" />
                 </div>
-                <p class="sm:w-[75%]">
+                <p class="sm:w-[75%] md:w-[70%] lg:w-[100%]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua
                 </p>
@@ -167,36 +168,38 @@
               <div><a href="#">Blog</a></div>
               <div><a href="#">Contact Us</a></div>
             </div>
-            <div class="flex justify-center gap-x-12 mb-4">
-              <div>
-                <a href="#"
-                  ><ion-icon
-                    class="w-8 h-8 hover:text-primary-100"
-                    name="logo-facebook"
-                  ></ion-icon
-                ></a>
-              </div>
-              <div>
-                <a href="#"
-                  ><ion-icon
-                    class="w-8 h-8 hover:text-primary-100"
-                    name="logo-twitter"
-                  ></ion-icon
-                ></a>
-              </div>
-              <div>
-                <a href="#"
-                  ><ion-icon
-                    class="w-8 h-8 hover:text-primary-100"
-                    name="logo-instagram"
-                  ></ion-icon
-                ></a>
-              </div>
-            </div>
             <div>
-              <p class="text-xs text-center mb-8">
-                &copy; Copyright 2018 Huddle. All rights reserved.
-              </p>
+              <div class="flex justify-center gap-x-12 mb-4">
+                <div>
+                  <a href="#"
+                    ><ion-icon
+                      class="w-8 h-8 hover:text-primary-100"
+                      name="logo-facebook"
+                    ></ion-icon
+                  ></a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><ion-icon
+                      class="w-8 h-8 hover:text-primary-100"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><ion-icon
+                      class="w-8 h-8 hover:text-primary-100"
+                      name="logo-instagram"
+                    ></ion-icon
+                  ></a>
+                </div>
+              </div>
+              <div>
+                <p class="text-xs text-center mb-8">
+                  &copy; Copyright 2018 Huddle. All rights reserved.
+                </p>
+              </div>
             </div>
           </div>
         </div>
