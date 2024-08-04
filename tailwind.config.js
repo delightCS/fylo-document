@@ -10,6 +10,9 @@ module.exports = {
           300: "hsl(192, 100%, 9%)",
           400: "hsl(208, 11%, 55%)",
         },
+        secondary: {
+          100: "hsl(322, 100%, 80%)",
+        },
       },
       fontFamily: {
         heading: ["Poppins"],

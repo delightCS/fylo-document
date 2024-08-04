@@ -19,13 +19,19 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body class="font-body">
-    <div>
+    <div class="relative">
       <header class="bg-svg-mobile-image bg-cover bg-center bg-primary-200">
         <div class="flex justify-between items-center pt-7 pb-20 px-4">
           <div class="w-[50%] h-auto">
-            <img src="images/logo.svg" alt="svg" />
+            <a href="/"
+              ><img src="images/logo.svg" alt="svg" class="inline-block"
+            /></a>
           </div>
-          <button class="btn text-primary-300 bg-white">Try It Free</button>
+          <button
+            class="shadow-md py-1 px-6 rounded-full font-bold cursor-pointer hover:shadow-sm text-primary-300 bg-white"
+          >
+            Try It Free
+          </button>
         </div>
 
         <div class="text-center px-8">
@@ -38,7 +44,7 @@
               but so does your audience. Create connections with your users as
               you engage in genuine discussion.
             </p>
-            <div class="btn bg-primary-100 text-white mb-16">
+            <div class="btn mb-16">
               <a href="#">Get Started For Free</a>
             </div>
           </div>
@@ -53,7 +59,7 @@
       </header>
 
       <article>
-        <div class="mt-14 mx-4 mb-40 text-center">
+        <div class="mt-14 mx-4 mb-48 text-center">
           <div class="card">
             <div class="w-[80%] h-auto inline-block mb-8">
               <img src="images/illustration-grow-together.svg" alt="svg" />
@@ -105,43 +111,61 @@
         </div>
       </article>
 
-      <aside>
-        <h2>Ready To Build Your Community?</h2>
-        <div>Get Started For Free</div>
+      <aside
+        class="mx-4 text-center bg-white shadow px-4 py-8 rounded-xl absolute bottom-96"
+      >
+        <h2 class="text-lg text-primary-300 font-heading font-semibold mb-6">
+          Ready To Build Your Community?
+        </h2>
+        <div class="btn inline-block">Get Started For Free</div>
       </aside>
 
       <footer>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
-          </p>
-          <div><a href="tel:+1-543-123-4567">+1-543-123-4567</a></div>
-          <div><a href="mailto:example@huddle.com">example@huddle.com</a></div>
-        </div>
-        <div>
-          <div><a href="#">About Us</a></div>
-          <div><a href="#">What We Do</a></div>
-          <div><a href="#">FAQ</a></div>
-        </div>
-        <div>
-          <div><a href="#">Career</a></div>
-          <div><a href="#">Blog</a></div>
-          <div><a href="#">Contact Us</a></div>
-        </div>
-        <div>
-          <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+        <div class="pt-36 px-4 bg-primary-300 text-white">
+          <div>
+            <div class="w-[50%] h-auto">
+              <a href="/"
+                ><img
+                  src="images/logo-white.svg"
+                  alt="svg"
+                  class="inline-block"
+              /></a>
+            </div>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </p>
+              <div><a href="tel:+1-543-123-4567">+1-543-123-4567</a></div>
+              <div>
+                <a href="mailto:example@huddle.com">example@huddle.com</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div><a href="#">About Us</a></div>
+            <div><a href="#">What We Do</a></div>
+            <div><a href="#">FAQ</a></div>
+          </div>
+          <div>
+            <div><a href="#">Career</a></div>
+            <div><a href="#">Blog</a></div>
+            <div><a href="#">Contact Us</a></div>
+          </div>
+          <div>
+            <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+          </div>
         </div>
       </footer>
     </div>
 
-    <aside>
+    <div>
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
         >. Coded by <a href="#">Your Name Here</a>.
       </p>
-    </aside>
+    </div>
   </body>
 </html>
