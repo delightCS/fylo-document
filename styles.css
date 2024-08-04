@@ -10,5 +10,5 @@
 }
 
 .card {
-  @apply shadow-full px-6 py-8 rounded-lg mb-12;
+  @apply shadow-full px-6 py-8 rounded-lg mb-12 xs:px-12;
 }
