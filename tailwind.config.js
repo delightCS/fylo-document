@@ -22,6 +22,9 @@ module.exports = {
         "svg-desktop-image": "url(images/bg-hero-desktop.svg)",
         "svg-mobile-image": "url(images/bg-hero-mobile.svg)",
       },
+      boxShadow: {
+        full: "2px 2px 6px -1px rgb(0 0 0 / 0.1), -2px -2px 4px -2px rgb(0 0 0 / 0.1)",
+      },
     },
   },
   plugins: [],
